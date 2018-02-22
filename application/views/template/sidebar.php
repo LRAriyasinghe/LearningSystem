@@ -36,7 +36,7 @@
 
                     </li>
                     <li>
-                        <a style="text-decoration: none" class="nav-link" href="#">
+                        <a style="text-decoration: none" class="nav-link" href="<?php echo base_url();?>chemistry">
                             <span class="nav-link-text">Chemistry</span>
                         </a>
                     </li>

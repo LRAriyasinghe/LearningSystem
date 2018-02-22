@@ -20,7 +20,7 @@
                 <div id="myDIV" class="col-lg-9">
 
                     <div class="input-group">
-                        <span id="spanUiqueId" class="input-group-addon"></span>
+                        <span class="input-group-addon"><i class="fa fa-question-circle"></i></span>
                         <input type="text" class="form-control" name="firstname" id="firstname" required></br>
 
                     </div>
@@ -42,12 +42,12 @@
 </div>
 
 <script>
-    document.getElementById("spanUiqueId").innerHTML = 1;
+    //document.getElementById("spanUiqueId").innerHTML = 1;
     $(function () {
         $(".repeat").on('click', function (e) {
 
             e.preventDefault();
-            document.getElementById("spanUiqueId").innerHTML = 3;
+            //document.getElementById("spanUiqueId").innerHTML = 3;
 
             var $self = $(this);
 

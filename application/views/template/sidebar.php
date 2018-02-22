@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li>
-                        <a style="text-decoration: none" class="nav-link" href="#">
+                        <a style="text-decoration: none" class="nav-link" href="<?php echo base_url();?>physics">
                             <span class="nav-link-text">Physics</span>
                         </a>
                     </li>
